@@ -1,6 +1,6 @@
 # Walmart_Sales
 This project demonstrates a complete end-to-end data analytics workflow using real-world Walmart sales data. I extracted the dataset, performed thorough cleaning and transformation using Python, and loaded the refined data into MySQL to execute analytical queries and solve business case studies.
-<hr>
+
 
 <h2> Project Steps</h2>
 
@@ -14,7 +14,7 @@ This project demonstrates a complete end-to-end data analytics workflow using re
 • Downloaded dataset using:  <br>
 <code>kaggle datasets download -d &lt;dataset-path&gt;</code>
 
-<h3>3. <b>Downloading Walmart Sales Data</b></h3> <br>
+<h3>3. <b>Downloading Walmart Sales Data</b></h3> 
 • Utilized the Kaggle API to download the Walmart Sales dataset.  <br>
 • Stored the dataset in the <b>data/</b> folder for easy access and processing.
 
@@ -37,12 +37,12 @@ Executed comprehensive cleaning steps:  <br>
 • Formatted monetary values for consistency  <br>
 • Validated dataset post-cleaning for further processing
 
-<h3>7️. <b>Feature Engineering</b></h3> <br>
+<h3>7️. <b>Feature Engineering</b></h3> 
 • Created a new feature: <b>Total_Amount</b> calculated as:  <br>
 <code>unit_price × quantity</code>  <br>
 • Enabled more effective SQL queries and revenue aggregation.
 
-<h3>8️. <b>Data Loading into MySQL & PostgreSQL</b></h3>  <br>
+<h3>8️. <b>Data Loading into MySQL & PostgreSQL</b></h3> 
 • Established DB connections using <b>SQLAlchemy</b>  <br>
 • Automated:  
 &nbsp;&nbsp;&nbsp;&nbsp;• Table creation  
